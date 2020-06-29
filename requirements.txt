@@ -1,0 +1,7 @@
+twint 
+tensorflow
+Flask
+pandas 
+numpy
+matplotlib 
+gunicorn
