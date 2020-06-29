@@ -1,5 +1,5 @@
 twint 
-tensorflow
+tensorflow==2.0.0
 Flask
 pandas 
 numpy
