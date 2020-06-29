@@ -1,7 +1,8 @@
 ####SERVICES#####
 
 import json
-from AI.AImodel import AImodel 
+#from AI.AImodel import AImodel #uncomment to use Tensorflow >= 2.1.0
+from Model200.AImodel200 import AImodel as AImodel200
 import pandas as pd
 import twint
 import time
@@ -41,19 +42,21 @@ class services:
 		pass
 
 	def predict(self):
-		model = AImodel.loadModel('AI/Depression_model.h5')
+		#model = AImodel.loadModel('AI/Depression_model.h5') #uncomment to use Tensorflow >= 2.1.0
+		model200 = AImodel200.loadModel('Model200/Depression_model200.h5')
 		if self.username is None:
 			if self.text is None:
 				return {'error':' No text inputed '} #raise error
 			else:
 				texts = self.text 
-				texts = AImodel.preprocessor(texts)
+				texts = AImodel200.preprocessor(texts) #remove 200 when using Tensorflow >= 2.1.0
 		else:
 			texts = [str(tweet['tweet'].encode(encoding='UTF-8')) for tweet in self.tweets ]
-			texts = list(map(AImodel.preprocessor,texts))
+			texts = list(map(AImodel200.preprocessor,texts)) #remove 200 when using Tensorflow >= 2.1.0
 			pass
-		token = AImodel.tokenize(texts, train=False,tokenpath='AI/tokenizer.json')
-		self.result = AImodel.predict(texts,token,model)
+		token200 = AImodel200.tokenize(texts,train=False,tokenpath='Model200/tokenizer200.pickle')
+		#token = AImodel.tokenize(texts, train=False,tokenpath='AI/tokenizer.json')
+		self.result = AImodel200.predict(texts,token200,model200) #remove 200 when using Tensorflow >= 2.1.0
 		
 
 	def response(self):
