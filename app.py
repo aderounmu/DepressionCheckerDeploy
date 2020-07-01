@@ -39,7 +39,7 @@ def handle_invalid_usage(error):
 
 @app.errorhandler(404)
 def page_not_found(error):
-	return render_template('index.html')
+	return app.send_static_file('index.html')
 
 @app.route('/')
 def home():

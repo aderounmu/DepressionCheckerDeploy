@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1528" height="710" preserveAspectRatio="xMidYMid" viewBox="0 0 1528 710" style="z-index:1;margin-right:-2px;display:block;background-repeat-y:initial;background-repeat-x:initial;background-color:rgb(255, 255, 255);animation-play-state:paused" >
+	<g transform="" style="animation-play-state:paused" >
+		<linearGradient id="lg-0.5773113350154064" x1="0" x2="1" y1="0" y2="0" style="animation-play-state:paused" >
+			<stop stop-color="#2196f3" offset="0" style="animation-play-state:paused" ></stop>
+			<stop stop-color="#a7d4ec" offset="1" style="animation-play-state:paused" ></stop>
+		</linearGradient>
+		<path fill="url(#lg-0.5773113350154064)" opacity="0.4" d="M 0 0 L 0 642.868 Q 152.8 614.559 305.6 585.001 T 611.2 494.694 T 916.8 419.369 T 1222.4 371.884 T 1528 280.614 L 1528 0 Z" style="opacity:0.4;animation-play-state:paused" ></path>
+		<path fill="url(#lg-0.5773113350154064)" opacity="0.4" d="M 0 0 L 0 685.536 Q 152.8 613.124 305.6 581.766 T 611.2 472.523 T 916.8 419.27 T 1222.4 353.755 T 1528 286.327 L 1528 0 Z" style="opacity:0.4;animation-play-state:paused" ></path>
+		<path fill="url(#lg-0.5773113350154064)" opacity="0.4" d="M 0 0 L 0 695.647 Q 152.8 596.857 305.6 573.003 T 611.2 476.12 T 916.8 447.587 T 1222.4 412.226 T 1528 295.801 L 1528 0 Z" style="opacity:0.4;animation-play-state:paused" ></path>
+		<path fill="url(#lg-0.5773113350154064)" opacity="0.4" d="M 0 0 L 0 626.146 Q 152.8 643.252 305.6 620.648 T 611.2 519.893 T 916.8 496.687 T 1222.4 350.147 T 1528 354.794 L 1528 0 Z" style="opacity:0.4;animation-play-state:paused" ></path>
+		<path fill="url(#lg-0.5773113350154064)" opacity="0.4" d="M 0 0 L 0 640.163 Q 152.8 550.669 305.6 522.937 T 611.2 523.525 T 916.8 417.819 T 1222.4 408.337 T 1528 358.813 L 1528 0 Z" style="opacity:0.4;animation-play-state:paused" ></path>
+	</g>
+</svg>
