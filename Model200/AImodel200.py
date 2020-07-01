@@ -234,7 +234,7 @@ class AImodel:
 
 
 def main():
-	myAImodel = AImodel(trainsize = 15000,traindocUrl='RealDataedited.csv')
+	myAImodel = AImodel(trainsize = 17000,traindocUrl='RealDataedited.csv')
 	myAImodel.run()
 
 if __name__ == '__main__':
