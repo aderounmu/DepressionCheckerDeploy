@@ -21,7 +21,7 @@ class services:
 	def getTweets(self,recent=False):
 		c = twint.Config()
 		c.Username = self.username
-		c.Limit = 2000
+		c.Limit = 1000
 		c.Pandas = True
 		# c.Store_object = True saves to ram 
 		c.Hide_output = True
